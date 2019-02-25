@@ -1,0 +1,17 @@
+body {
+    background-color: white;   
+    
+}
+header {
+    padding: 0%;
+    height: 75px;
+}
+.logo {
+    height: 100px;
+}
+.inicio {
+    text-align: center;
+    background: rgba(200, 54, 54, 0);
+    height: 500px;
+    padding-top: 16%;
+}
