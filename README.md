@@ -179,6 +179,11 @@ CRITERIOS DE ACEPTACIÓN
 ![Prototipo de Baja Fidelidad](./src/img/Sketch_4.jpg "Boceto 4")
 ![Prototipo de Baja Fidelidad](./src/img/Sketch_5.jpg "Boceto 5")
 
+#### Wireframe
+
+Los wireframe se realizaron con [Figma](https://figma.com)  los cuales se pueden encontrar [aquí](https://www.figma.com/file/OG0qwA2ncQfYkenZ5KQmA9dW/Pokemon-Go-wireframe?node-id=0%3A9)
+
+
 
 
 #### Prototipo de alta fidelidad
