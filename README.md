@@ -173,11 +173,11 @@ CRITERIOS DE ACEPTACIÓN
 
 ![Diagrama de Flujo](./src/img/Flowchart.png "Diagrama de Flujo")
 
-![Prototipo de Baja Fidelidad](./src/img/Sketch_1.jpeg "Boceto 1")
-![Prototipo de Baja Fidelidad](./src/img/Sketch_2.jpeg "Boceto 2")
-![Prototipo de Baja Fidelidad](./src/img/Sketch_3.jpeg "Boceto 3")
-![Prototipo de Baja Fidelidad](./src/img/Sketch_4.jpeg "Boceto 4")
-![Prototipo de Baja Fidelidad](./src/img/Sketch_5.jpeg "Boceto 5")
+![Prototipo de Baja Fidelidad](./src/img/Sketch_1.jpg "Boceto 1")
+![Prototipo de Baja Fidelidad](./src/img/Sketch_2.jpg "Boceto 2")
+![Prototipo de Baja Fidelidad](./src/img/Sketch_3.jpg "Boceto 3")
+![Prototipo de Baja Fidelidad](./src/img/Sketch_4.jpg "Boceto 4")
+![Prototipo de Baja Fidelidad](./src/img/Sketch_5.jpg "Boceto 5")
 
 
 
