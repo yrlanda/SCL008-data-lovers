@@ -6,31 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>POKE LAB GO</title>
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-light bg-light fixed-top menu">
-      <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand">
         <img class="logo" src="./img/logo.png">
       </a>
+      <ul>
+        <li>
+          <a href="#"><button class="btn btn-outline-success my-2 my-sm-0">Pokémon</button></a>
+        </li>
+        <li>
+          <a href="#"><button class="btn btn-outline-success my-2 my-sm-0">Estadísticas</button></a>
+        </li>
+      </ul>
     </nav>
   </header>
+
   <div id="root" class="container-fluid">
     <section class="row">
-      <div class="col col-sm-12" id="banner">
-        <div class="jumbotron inicio">
-          <h1 class="display-4">Poke Lab Go</h1>
-          <p class="lead">Si eres fanáticos de los videojuegos en especial el de pokémon, ya esta aquí Poke Lab Go es
-            el primer catálago creado en la Web y adatado a tu dispositivo móvil que te permitira visualizar de una
-            manera más rapida y sencilla todos tus pokémon. </p>
-          <a class="btn btn-danger btn-lg btn-empieza" href="#contenido" role="button">Entra ya!</a>
-        </div>
+      <div class="col col-sm-12">
+
       </div>
     </section>
   </div>
@@ -50,7 +52,6 @@
       </div>
     </div>
   </footer>
-
   <script src="data.js"></script>
   <script src="./data/pokemon/pokemon.js"></script>
   <script src="main.js"></script>
