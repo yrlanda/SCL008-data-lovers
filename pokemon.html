@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>POKE LAB GO</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="root" class="container-fluid">
+    <header class="row">
+      <nav class="navbar navbar-light bg-light fixed-top menu">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="./img/logo.png">
+        </a>
+      </nav>
+    </header>
+    <section class="row controles">
+      <div class="col col-sm-2">
+        <select class="form-control menu" id="type">
+          <option value="all" href="#"><strong>Ordenar</strong></option>
+          <option value="az" href="#">A - Z</option>
+          <option value="za" href="#">Z - A</option>
+          <option value="idasc" href="#">ID ASC</option>
+          <option value="iddesc" href="#">ID DESC</option>
+        </select>
+      </div>
+      <div class="col col-sm-2">
+        <select class="form-control menu" id="type">
+          <option value="all" href="#"><strong>Tipos de Pokemon</strong></option>
+          <option value="Grass" href="#">Grass</option>
+          <option value="Poison" href="#">Poison</option>
+          <option value="Fire" href="#">Fire</option>
+          <option value="Flying" href="#">Flying</option>
+          <option value="Water" href="#">Water</option>
+          <option value="Bug" href="#">Bug</option>
+          <option value="Normal" href="#">Normal</option>
+          <option value="Electric" href="#">Electric</option>
+          <option value="Psychic" href="#">Psychic</option>
+          <option value="Fighting" href="#">Fighting</option>
+          <option value="Rock" href="#">Rock</option>
+          <option value="Ice" href="#">Ice</option>
+          <option value="Dragon" href="#">Dragon</option>
+          <option value="Ground" href="#">Ground</option>
+          <option value="Ghost" href="#">Ghost</option>
+        </select>
+      </div>
+    </section>
+    <section class="row" id="lista">
+    </section>
+    <footer class="footer fondo-formulario">
+      <div class="row">
+        <div class="col col-sm-6 ">
+          <h4>Poke Lab Go &copy; 2019-02</h4>
+        </div>
+        <div class="col col-sm-4 ">
+          <ul>
+            <li>Aviso legal</li>
+            <li>Condiciones Genereales de Uso</li>
+            <li>Pólitica de Privacidad</li>
+            <li>Denunciar un contenido ilegal</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="data.js"></script>
+  <script src="./data/pokemon/pokemon.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

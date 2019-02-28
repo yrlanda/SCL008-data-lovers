@@ -1,4 +1,4 @@
-# POKE LAB
+# POKE LAB GO
 
 ## Índice
 
@@ -53,7 +53,6 @@ Poke Lab Go es una aplicación web simple, ideal para usar desde el dispositivo 
 5. ¿Cuándo utilizan o utilizarían el producto?
 
 Antes de iniciar una partida y deseen consultar información de un pokémon en específico.
-
 
 
 
