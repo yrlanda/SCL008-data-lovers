@@ -17,6 +17,15 @@ window.onload = () => {
     showCards(filtered);
   });
 
+    selectType.addEventListener('change', () => {
+      
+        let condition = selectType.value
+        let filtered = window.filterType(data, condition);
+        pokemon_list.innerHTML = '';
+
+        showCards(filtered);
+    });
+
 
   function showCards(datos) {
     pokemon_list.innerHTML = '';
