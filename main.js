@@ -10,23 +10,31 @@ window.onload = () => {
 
   selectType.addEventListener('change', () => {
   
-    let condition = selectType.value
+    let condition = selectType.value;
     let filtered = window.filterType(data, condition);
     pokemon_list.innerHTML = '';
 
     showCards(filtered);
   });
 
-    selectType.addEventListener('change', () => {
-      
-        let condition = selectType.value
-        let filtered = window.filterType(data, condition);
-        pokemon_list.innerHTML = '';
+    
+    const selectOrder = document.getElementById('order');
+    selectOrder.addEventListener('change', () => {
 
-        showCards(filtered);
-    });
+      let sort_condition = selectOrder.value;
+      let sorted = window.sortData(data, sort_condition);
+      pokemon_list.innerHTML = '';
+
+      showCards(sorted);
+
+    }); 
 
 
+
+
+
+
+    
   function showCards(datos) {
     pokemon_list.innerHTML = '';
 
