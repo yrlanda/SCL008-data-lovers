@@ -4,8 +4,7 @@
 
 * [Evolución de Pokémon Go](#evolución-de-pokémon-go)
 * [Poke Lab Go](#poke-lab-go)
-* [Definición del producto](#definición-del-producto
-)
+* [Definición del producto](#definición-del-producto)
 * [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
 * [Parte obligatoria](#parte-obligatoria)
 * [Parte opcional](#parte-opcional-hacker-edition)
@@ -168,9 +167,13 @@ CRITERIOS DE ACEPTACIÓN
 
 ### Diseño de la Interfaz de Usuario
 
-#### Prototipo de baja fidelidad
+#### 
 
 ![Diagrama de Flujo](./src/img/Flowchart.png "Diagrama de Flujo")
+
+#### Prototipo de baja fidelidad 
+
+Inicialmente se elabora prototipado de baja fidelidad para su uso en test y sesiones de diseño participativo, con la idea es conseguir una gran cantidad de información de la interacción entre la interfaz y el usuario mediante la evaluación de este prototipo. Dado que los prototipos de baja fidelidad son baratos, tanto en términos de dinero como de tiempo, es posible obtener una serie de información de manera rapid y fácil.
 
 ![Prototipo de Baja Fidelidad](./src/img/Sketch_1.jpg "Boceto 1")
 ![Prototipo de Baja Fidelidad](./src/img/Sketch_2.jpg "Boceto 2")
@@ -180,9 +183,12 @@ CRITERIOS DE ACEPTACIÓN
 
 #### Wireframe
 
+En el siguiente wireframe se muestra una aproximación más tangible de las funcionalidades de la app y de la misma forma impulsar el proceso de diseño de la interfaz de usuario (UI). Los diseñadores de experiencia de usuario y arquitectos de información usan wireframes para mostrar las rutas de navegación entre páginas. Los interesados en un negocio los usan para asegurarse que los requerimientos y objetivos se conectan a través del diseño.3​ Otros profesionales que crean wireframes incluyen a los analistas de negocios, arquitectos de información, diseñadores de interacción, diseñadores de experiencia de usuario, diseñadores gráficos, programadores y gestores de productos.7​
+
+
+
+
 Los wireframe se realizaron con [Figma](https://figma.com)  los cuales se pueden encontrar [aquí](https://www.figma.com/file/OG0qwA2ncQfYkenZ5KQmA9dW/Pokemon-Go-wireframe?node-id=0%3A9)
-
-
 
 
 #### Prototipo de alta fidelidad
