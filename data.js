@@ -47,4 +47,22 @@ function sortById(a, b) {
     return 1;
   return 0;
 }
+
+//función para filtrar
+
+const filterType = (data, condition) => {
+  if (condition == "all") {
+    return data;
+  }
+  const filteredType = data.filter(element => {
+    return element.type.includes(condition) === true;
+  })
+  return filteredType;
+}
+
+window.filterType = filterType;
+
+
+
+
  
