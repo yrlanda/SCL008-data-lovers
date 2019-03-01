@@ -1,12 +1,21 @@
 /* Manejo del DOM */
 window.onload = () => {
-    const data = window.pokemon.pokemon;
-    const pokemon_list = document.getElementById('pokemon');
+  const data = window.pokemon.pokemon;
+  const pokemon_list = document.getElementById('pokemon');
 
-    showCards(data);
+  showCards(data);
 
 
-    const selectType = document.getElementById("type");
+  const selectType = document.getElementById("type");
+
+  selectType.addEventListener('change', () => {
+  
+    let condition = selectType.value
+    let filtered = window.filterType(data, condition);
+    pokemon_list.innerHTML = '';
+
+    showCards(filtered);
+  });
 
     selectType.addEventListener('change', () => {
       
@@ -18,11 +27,11 @@ window.onload = () => {
     });
 
 
-    function showCards(datos) {
-        pokemon_list.innerHTML = '';
-    
-        datos.forEach(pokemon => {
-          pokemon_list.innerHTML += `<div class="card">
+  function showCards(datos) {
+    pokemon_list.innerHTML = '';
+
+    datos.forEach(pokemon => {
+      pokemon_list.innerHTML += `<div class="card">
         <img src="${pokemon.img}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">${pokemon.name}</h5>
@@ -30,10 +39,10 @@ window.onload = () => {
           <p class="card-text">${pokemon.candy}</p>
         </div>
         </div`;
-    
-        });
-    
-      }
+
+    });
+
+  }
 
 
 
