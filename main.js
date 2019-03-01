@@ -9,10 +9,12 @@ window.onload = () => {
     const selectType = document.getElementById("type");
 
     selectType.addEventListener('change', () => {
-        //const pokemon_list = document.getElementById('lista');
+      
         let condition = selectType.value
         let filtered = window.filterType(data, condition);
         pokemon_list.innerHTML = '';
+
+        showCards(filtered);
     });
 
 

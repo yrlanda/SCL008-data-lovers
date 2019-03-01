@@ -48,3 +48,16 @@ function sortById(a, b) {
   return 0;
 }
  
+//funcion para filtrar
+
+const filterType = (data, condition) => {
+  if (condition == "all"){
+    return data;
+  }
+  const filteredType = data.filter(element => {
+    return element.type.includes(condition) === true;
+  })
+  return filteredType;
+}
+
+window.filterType = filterType;
