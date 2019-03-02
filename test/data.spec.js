@@ -2,6 +2,9 @@ global.window = global;
 global.assert = require('chai').assert;
 require('../src/data');
 require('./data.spec.js');
+require('../src/data/pokemon/pokemon.js');
+
+const data = window.pokemon.pokemon;
 
 
 describe('example', () => {
@@ -17,23 +20,23 @@ describe('example', () => {
 
 describe('orderData', () => {
   it('deberia de mostrar al pokemon Abra como el primero en la lista cuando se ordene de la  A - Z', () => {
-    let pokemon_data = window.orderData(data, 'az');
+    let pokemon_data = window.sortData(data, 'az');
     assert.equal(pokemon_data[0].name, 'Abra');
 
   });
 
   it('deberia de mostrar al pokemon Zubat como el primero en la lista cuando se ordene de la  Z - A', () => {
-    let pokemon_data = window.orderData(data, 'za');
+    let pokemon_data = window.sortData(data, 'za');
     assert.equal(pokemon_data[0].name, 'Zubat');
 
   });
   it('deberia de mostrar al pokemon Bulbasaur como el primero en la lista cuando se ordena Idasc ', () => {
-    let pokemon_data = window.orderData(data, 'idasc');
+    let pokemon_data = window.sortData(data, 'idasc');
     assert.equal(pokemon_data[0].name, 'Bulbasaur');
 
   });
   it('deberia de mostrar al pokemon Mew como el primer pokemon de la lista cuando se ordedne Iddesc', () => {
-    let pokemon_data = window.orderData(data, 'iddesc');
+    let pokemon_data = window.sortData(data, 'iddesc');
     assert.equal(pokemon_data[0].name, 'Mew');
 
   });
