@@ -18,7 +18,7 @@ window.onload = () => {
 
     Object.keys(types).sort().forEach(type => {
       html += `${type}<div class="progress">
-                <div class="progress-bar bg-success" role="progressbar" style="width: ${types[type]}%" aria-valuenow="${types[type]}" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" role="progressbar" style="width: ${types[type]}%" aria-valuenow="${types[type]}" aria-valuemin="0" aria-valuemax="100">
                 ${types[type]}%
                 </div>
               </div>`;
@@ -33,7 +33,7 @@ window.onload = () => {
 
     Object.keys(weaknesses).sort().forEach(weakness => {
       html += `${weakness}<div class="progress">
-                <div class="progress-bar bg-success" role="progressbar" style="width: ${weaknesses[weakness]}%" aria-valuenow="${weaknesses[weakness]}" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" role="progressbar" style="width: ${weaknesses[weakness]}%" aria-valuenow="${weaknesses[weakness]}" aria-valuemin="0" aria-valuemax="100">
                   ${weaknesses[weakness]}%
                 </div>
               </div>`;
