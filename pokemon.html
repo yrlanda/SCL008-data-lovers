@@ -13,15 +13,29 @@
 </head>
 
 <body>
-
-  <div id="root" class="container-fluid">
-    <header>
-      <nav class="navbar fixed-top menu">
-        <a class="navbar-brand" href="#">
-          <img class="logo" src="./img/logo1.png" alt="Logo del sitio">
-        </a>
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img class="logo" src="./img/logo1.png" alt="PokeLabGo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Pokémon</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="statistics.html">Estadísticas</a>
+                </li>
+              </ul>
+            </div>
+          </div>
       </nav>
-    </header>
+  </header>
+  <div id="root" class="container-fluid">
     <div class="row controles">
       <div class="col col-sm-2">
         <select class="form-control menu" id="type">
