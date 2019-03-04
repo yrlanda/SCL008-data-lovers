@@ -190,6 +190,9 @@ En el siguiente wireframe se muestra una aproximación más tangible de las func
 
 Los wireframe se realizaron con [Figma](https://figma.com)  los cuales se pueden encontrar [aquí](https://www.figma.com/file/OG0qwA2ncQfYkenZ5KQmA9dW/Pokemon-Go-wireframe?node-id=0%3A9)
 
+#### Experiencia de usuario 
+Se realizó una entrevista a un jugador de PokemonGo nivel intermedio, incluye preguntas acerca del juego, experiencia del juego y mejoras para la página Poke Lab Go.
+Para acceder a esta información [aquí](https://docs.google.com/document/d/1Y92lnRx_ibkZf5Vo5DQH6QZUqoS3dXBqOs9H3ZPq6mQ/edit?usp=sharing).
 
 #### Prototipo de alta fidelidad
 
