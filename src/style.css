@@ -63,5 +63,9 @@ body {
     display: inline-flex;
   }
 
+  .progress {
+    height: 20px;
+  }
+
 
  
