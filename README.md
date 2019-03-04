@@ -54,6 +54,8 @@ Poke Lab Go es una aplicación web simple, ideal para usar desde el dispositivo 
 Antes de iniciar una partida y deseen consultar información de un pokémon en específico.
 
 
+## Definición del Usuario
+
 
 ## Encuesta aplicada
 
@@ -249,12 +251,6 @@ Features/características extra sugeridas:
 
 
 
-## Evaluación
-
-Recuerda revisar la [rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada habilidad y cada nivel. Esta es una
-lista de todas las habilidades involucradas en este proyecto y que evaluaremos
-cuando lo completes:
 
 ### General
 
@@ -307,17 +303,6 @@ cuando lo completes:
 | Presentaciones |
 
 ***
-
-## Pistas sobre cómo empezar a trabajar en el proyecto
-
-Antes de empezar a escribir código, debes definir qué deberá hacer el producto
-en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te
-pueden ayudar:
-
-* ¿Quiénes son los principales usuarios de producto?
-* ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
-* ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
-* ¿Cuándo utilizan o utilizarían el producto?
 
 
 
