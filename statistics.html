@@ -13,23 +13,31 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-light bg-light fixed-top menu">
-      <a class="navbar-brand" href="#">
-        <img class="logo" src="./img/logo.png">
-      </a>
-    </nav>
-  </header>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img class="logo" src="./img/logo.png">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="pokemon.html">Pokémon</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Estadísticas</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
   <div id="root" class="container-fluid">
     <section class="row">
-      <div class="col col-sm-12" id="banner">
-        <div class="jumbotron inicio">
-          <h1 class="display-4">estadisticas</h1>
-          <p class="lead">Si eres fanáticos de los videojuegos en especial el de pokémon, ya esta aquí Poke Lab Go es
-            el primer catálago creado en la Web y adatado a tu dispositivo móvil que te permitira visualizar de una
-            manera más rapida y sencilla todos tus pokémon. </p>
-          <a class="btn btn-danger btn-lg btn-empieza" href="#contenido" role="button">Entra ya!</a>
-        </div>
+      <div class="col col-sm-12">
       </div>
     </section>
     <footer class="footer fondo-formulario">
@@ -41,7 +49,7 @@
           <ul>
             <li>Aviso legal</li>
             <li>Condiciones Genereales de Uso</li>
-            <li>Pólitica de Privacidad</li>
+            <li>Política de Privacidad</li>
             <li>Denunciar un contenido ilegal</li>
           </ul>
         </div>
