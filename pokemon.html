@@ -15,10 +15,10 @@
 <body>
 
   <div id="root" class="container-fluid">
-    <header class="row">
-      <nav class="navbar navbar-light bg-light fixed-top menu">
+    <header>
+      <nav class="navbar fixed-top menu">
         <a class="navbar-brand" href="#">
-          <img class="logo" src="./img/logo.png">
+          <img class="logo" src="./img/logo1.png" alt="Logo del sitio">
         </a>
       </nav>
     </header>
@@ -44,8 +44,8 @@
         </select>
       </div>
       <div class="col col-sm-2">
-        <select class="form-control menu" id="order"> 
-          <option value="all" href="#"><strong>Ordenar</strong></option>
+        <select class="form-control menu" id="order">
+          <option value="idasc" href="#"><strong>Ordenar</strong></option>
           <option value="az" href="#">A - Z</option>
           <option value="za" href="#">Z - A</option>
           <option value="idasc" href="#">ID ASC</option>
@@ -53,7 +53,8 @@
         </select>
       </div>
     </div>
-    <div class="row" id="pokemon"> <!-- En este div va a aparecer la data a traves del Dom -->
+    <div id="pokemon">
+      <!-- En este div va a aparecer la data a traves del Dom -->
 
     </div>
     <footer class="footer fondo-formulario">
@@ -71,6 +72,92 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg ">
+        <div class="modal-content ">
+          <div class="card mb-3 text-center">
+            <div class="row">
+              <div class="col-sm-2">
+                <p>Num: 1231</p>
+              </div>
+              <div class="col-sm-2 offset-sm-8">
+                <p>id: 1231</p>
+              </div>
+            </div>
+            <img id="champ_splash" class="card-img-top" src="http://www.serebii.net/pokemongo/pokemon/001.png" alt="Card image cap ">
+            <div class="card-body">
+              <h3 class="card-title" id="champ_name">Bulbasaur</h3>
+              <p class="card-text" id="champ_title"></p>
+              <div class="row rtl text-center garanty">
+                <div class="col box">
+
+                </div>
+                <!--.box-->
+                <div class="col box">
+                  <i class="fas fa-fist-raised"> </i>
+                  <h5>Type</h5>
+                  <h5 id="type">Grass</h5>
+                </div>
+                <!--.box-->
+                <div class="col box">
+                  <i class="fas fa-shield-alt"> </i>
+                  <h5>Weight</h5>
+                  <h5 id="champ_defense">1.80</h5>
+                </div>
+                <!--.box-->
+                <div class="col box">
+                  <i class="fas fa-hat-wizard"> </i>
+                  <h5>Height</h5>
+                  <h5 id="champ_magic">1.50</h5>
+                </div>
+                <!--.box-->
+                <div class="col box">
+                  <i class="fas fa-dizzy"></i>
+                  <h5>Egg</h5>
+                  <h5 id="champ_difficulty">2 km</h5>
+                </div>
+                <!--.box-->
+                <div class="col box">
+
+                </div>
+                <!--.box-->
+              </div>
+              <div class="row">
+                <div class="col-sm-3">
+                  <h5>Weakness</h5>
+                  <ul>
+                    <li>Grass</li>
+                    <li>Poison</li>
+                    <li>Water</li>
+                  </ul>
+                </div>
+                <div class="col-sm-3">
+                  <h5>Next Evolution</h5>
+                  <ul>
+                    <li>Yvisaur</li>
+                    <li>Venusaur</li>
+                  </ul>
+                </div>
+                <div class="col-sm-3">
+                  <h5>Candy</h5>
+                  <p>caramelitooo bulbasaur</p>
+                </div>
+                <div class="col-sm-3">
+                  <h5>Candy count</h5>
+                  <p>223</p>
+                </div>
+
+
+              </div>
+              <!--.row-->
+              <p class="card-text"><small class="text-muted" id="champ_blurb"></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>

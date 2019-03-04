@@ -9,46 +9,65 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-light bg-light fixed-top menu">
-      <a class="navbar-brand" href="#">
-        <img class="logo" src="./img/logo.png">
-      </a>
-    </nav>
-  </header>
+
   <div id="root" class="container-fluid">
+    <header>
+      <nav class="navbar fixed-top menu">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="./img/logo1.png" alt="Logo del sitio">
+        </a>
+      </nav>
+    </header>
     <section class="row">
-      <div class="col col-sm-12" id="banner">
+      <div class="col col-sm-8 offset-sm-2" id="banner">
         <div class="jumbotron inicio">
-          <h1 class="display-4">Poke Lab Go</h1>
+          <img class="poke" src="./img/poke.png" alt="Logo del sitio">
+          <h1 class="display-5">Poke Lab Go</h1>
           <p class="lead">Si eres fanáticos de los videojuegos en especial el de pokémon, ya esta aquí Poke Lab Go es
             el primer catálago creado en la Web y adatado a tu dispositivo móvil que te permitira visualizar de una
             manera más rapida y sencilla todos tus pokémon. </p>
-          <a class="btn btn-danger btn-lg btn-empieza" href="pokemon.html" role="button">Entra ya!</a>
+
+          <a class="btn btn-lg btn-empieza" href="pokemon.html" role="button"><img class="entra" src="./img/logo.png">
+            <h3><strong>Entra ya!</strong> </h3>
+          </a>
+
         </div>
       </div>
+
+
     </section>
+
+    <!-- <section class="row">
+        <div class="col-sm-2 offset-sm-5 col-empieza">
+            <a class="btn btn-lg btn-empieza" href="pokemon.html" role="button"><img class="entra" src="./img/logo.png">
+              <h2><strong>Entra ya!</strong> </h2>
+            </a>
+  
+  
+        </div>
+    </section> -->
+    <footer class="footer fondo-formulario">
+      <div class="row">
+        <div class="col col-sm-6 ">
+          <h4>Poke Lab Go &copy; 2019-02</h4>
+        </div>
+        <div class="col col-sm-4 ">
+          <ul>
+            <li>Aviso legal</li>
+            <li>Condiciones Genereales de Uso</li>
+            <li>Pólitica de Privacidad</li>
+            <li>Denunciar un contenido ilegal</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </div>
 
-  <footer class="footer fondo-formulario">
-    <div class="row">
-      <div class="col col-sm-6 ">
-        <h4>Poke Lab Go &copy; 2019-02</h4>
-      </div>
-      <div class="col col-sm-4 ">
-        <ul>
-          <li>Aviso legal</li>
-          <li>Condiciones Genereales de Uso</li>
-          <li>Pólitica de Privacidad</li>
-          <li>Denunciar un contenido ilegal</li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+
 
   <script src="data.js"></script>
   <script src="./data/pokemon/pokemon.js"></script>
