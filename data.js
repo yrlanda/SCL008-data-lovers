@@ -64,8 +64,44 @@ const filterType = (data, condition) => {
 
 window.filterType = filterType;
 
+// Generar estadísticas de tipo
+const computeTypes = data => {
+  const types = {};
 
+  data.forEach(pokemon => {
+    pokemon.type.forEach(t => {
+      if (!types.hasOwnProperty(t)) {
+        types[t] = 0;
+      }
+  
+      types[t]++;
+    })
+  });
 
+  Object.keys(types).forEach(type => {
+    types[type] = parseInt((types[type] / POKEMON.pokemon.length) * 100);
+  });
 
+  return types;
+}
 
- 
+// Generar estadísticas de debilidad
+const computeWeaknesses = data => {
+  const weaknesses = {};
+
+  data.forEach(pokemon => {
+    pokemon.weaknesses.forEach(t => {
+      if (!weaknesses.hasOwnProperty(t)) {
+        weaknesses[t] = 0;
+      }
+  
+      weaknesses[t]++;
+    })
+  });
+
+  Object.keys(weaknesses).forEach(weakness => {
+    weaknesses[weakness] = parseInt((weaknesses[weakness] / POKEMON.pokemon.length) * 100);
+  })
+
+  return weaknesses;
+}
