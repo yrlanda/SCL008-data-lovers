@@ -4,16 +4,16 @@ window.onload = () => {
   const showTypes = document.getElementById('showTypes');
   const shotWeaknesses = document.getElementById('showWeaknesses');
 
-  showTypes.addEventListener('click', event => {
+  showTypes.addEventListener('click', () => {
     showComputeTypes();
   });
 
-  shotWeaknesses.addEventListener('click', event => {
+  shotWeaknesses.addEventListener('click', () => {
     showComputeWeaknesses();
   });
 
   const showComputeTypes = () => {
-    const types = computeTypes(data);
+    const types = window.computeTypes(data);
     let html = '';
 
     Object.keys(types).sort().forEach(type => {
@@ -21,14 +21,14 @@ window.onload = () => {
                 <div class="progress-bar" role="progressbar" style="width: ${types[type]}%" aria-valuenow="${types[type]}" aria-valuemin="0" aria-valuemax="100">
                 ${types[type]}%
                 </div>
-              </div>`;
+              </div>`;window
     })
 
     percentages.innerHTML = html;
   }
 
   const showComputeWeaknesses = () => {
-    const weaknesses = computeWeaknesses(data);
+    const weaknesses = window.computeWeaknesses(data);
     let html = '';
 
     Object.keys(weaknesses).sort().forEach(weakness => {

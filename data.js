@@ -79,11 +79,13 @@ const computeTypes = data => {
   });
 
   Object.keys(types).forEach(type => {
-    types[type] = parseInt((types[type] / POKEMON.pokemon.length) * 100);
+    types[type] = parseInt((types[type] / window.pokemon.pokemon.length) * 100);
   });
 
   return types;
 }
+
+window.computeTypes = computeTypes
 
 // Generar estadísticas de debilidad
 const computeWeaknesses = data => {
@@ -100,8 +102,17 @@ const computeWeaknesses = data => {
   });
 
   Object.keys(weaknesses).forEach(weakness => {
-    weaknesses[weakness] = parseInt((weaknesses[weakness] / POKEMON.pokemon.length) * 100);
+    weaknesses[weakness] = parseInt((weaknesses[weakness] / window.pokemon.pokemon.length) * 100);
   })
-
   return weaknesses;
 }
+
+window.computeWeaknesses = computeWeaknesses;
+
+const getPokemon = (data, pokemon_name) => {
+  const result = data.find( pokemon => pokemon.name === pokemon_name);
+
+  return result;
+}
+
+window.getPokemon = getPokemon;
