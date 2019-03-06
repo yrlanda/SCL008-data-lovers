@@ -14,26 +14,27 @@
 
 <body>
   <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
-          <div class="container">
-            <a class="navbar-brand" href="#">
-              <img class="logo" src="./img/logo1.png" alt="PokeLabGo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Pokémon</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="statistics.html">Estadísticas</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-      </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="./img/logo1.png" alt="PokeLabGo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Pokémon</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="statistics.html">Estadísticas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
   <div id="root" class="container-fluid">
     <div class="row controles">
@@ -91,19 +92,16 @@
       aria-hidden="true">
       <div class="modal-dialog modal-lg ">
         <div class="modal-content ">
-          <div class="card mb-3 text-center">
-            <div class="row">
-              <div class="col-sm-2">
-                <p>Num: 1231</p>
+            <div class="modal-header">
+                <h5 class="modal-title"><span id="num_pokemon"></span></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
               </div>
-              <div class="col-sm-2 offset-sm-8">
-                <p>id: 1231</p>
-              </div>
-            </div>
-            <img id="champ_splash" class="card-img-top" src="http://www.serebii.net/pokemongo/pokemon/001.png" alt="Card image cap ">
+          <div class="poke-modal mb-3 text-center">
+            <img id="img_pokemon" class="card-img-top" src="http://www.serebii.net/pokemongo/pokemon/139.png" alt="Pokemon Image">
             <div class="card-body">
-              <h3 class="card-title" id="champ_name">Bulbasaur</h3>
-              <p class="card-text" id="champ_title"></p>
+              <h3 class="card-title" id="name_pokemon">Bulbasaur</h3>
               <div class="row rtl text-center garanty">
                 <div class="col box">
 
@@ -111,26 +109,26 @@
                 <!--.box-->
                 <div class="col box">
                   <i class="fas fa-fist-raised"> </i>
-                  <h5>Type</h5>
-                  <h5 id="type">Grass</h5>
+                  <h4><strong>Type</strong></h4>
+                  <ul id="type_pokemon"></ul>
                 </div>
                 <!--.box-->
                 <div class="col box">
                   <i class="fas fa-shield-alt"> </i>
-                  <h5>Weight</h5>
-                  <h5 id="champ_defense">1.80</h5>
+                  <h4><strong>Weight</strong> </h4>
+                  <h5 id="weight_pokemon"></h5>
                 </div>
                 <!--.box-->
                 <div class="col box">
                   <i class="fas fa-hat-wizard"> </i>
-                  <h5>Height</h5>
-                  <h5 id="champ_magic">1.50</h5>
+                  <h4><strong>Height</strong> </h4>
+                  <h5 id="height_pokemon"></h5>
                 </div>
                 <!--.box-->
                 <div class="col box">
                   <i class="fas fa-dizzy"></i>
-                  <h5>Egg</h5>
-                  <h5 id="champ_difficulty">2 km</h5>
+                  <h5><strong>Egg</strong></h5>
+                  <h5 id="egg_pokemon"></h5>
                 </div>
                 <!--.box-->
                 <div class="col box">
@@ -139,28 +137,23 @@
                 <!--.box-->
               </div>
               <div class="row">
-                <div class="col-sm-3">
-                  <h5>Weakness</h5>
-                  <ul>
-                    <li>Grass</li>
-                    <li>Poison</li>
-                    <li>Water</li>
+                <div class="col-sm-3 offset-sm-2">
+                  <h5><strong>Weakness</strong></h5>
+                  <ul id="weakness_pokemon">
                   </ul>
                 </div>
-                <div class="col-sm-3">
-                  <h5>Next Evolution</h5>
-                  <ul>
-                    <li>Yvisaur</li>
-                    <li>Venusaur</li>
+                <!-- <div class="col-sm-3">
+                  <h5><strong>Next Evolution</strong></h5>
+                  <ul id="next_pokemon">
                   </ul>
+                </div> -->
+                <div class="col-sm-3">
+                  <h5><strong>Candy</strong></h5>
+                  <p id="candy_pokemon"></p>
                 </div>
                 <div class="col-sm-3">
-                  <h5>Candy</h5>
-                  <p>caramelitooo bulbasaur</p>
-                </div>
-                <div class="col-sm-3">
-                  <h5>Candy count</h5>
-                  <p>223</p>
+                  <h5><strong>Candy count</strong></h5>
+                  <p id="candy_count_pokemon"></p>
                 </div>
 
 
