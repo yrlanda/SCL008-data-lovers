@@ -56,32 +56,12 @@ Antes de iniciar una partida y deseen consultar información de un pokémon en e
 
 ## Definición del Usuario
 
+El User persona se elaboró con [Figma](https://figma.com)  el cual se pueden encontrar [aquí](https://www.figma.com/proto/eQAInpAP5qIrILcLgckiWc5E/User-persona-(POKE-LAB-GO)?node-id=1%3A3&scaling=min-zoom)
 
 ## Encuesta aplicada
 
-El objetivo principal de este proyecto es que aprendas a diseñar y construir una
-interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
-usuario necesita.
+![Encuesta](./src/img/encuesta/grafico_1.png "Grafico 1")
 
-Dicho en palabras sencillas, aprenderás a:
-
-* Aplicar y profundizar todo lo que aprendiste en el proyecto anterior.
-* Pensar en las **necesidades de los usuarios** para crear historias de usuario.
-* Escribir y trabajar con **historias de usuario**, sus definiciones de
-  terminado (_definition of done_) en la organización y planificación de tu
-  trabajo.
-* Definir qué data y de qué forma mostrarla en el producto, basándote en
-  tu **entendimiento del usuario**.
-* Crear productos que sigan los **principios básicos de diseño visual** y
-  las **heurísticas de usabilidad**.
-* Iterar el diseño del producto, basándote en los resultados de los
-  **tests de usabilidad**.
-* Manipular **_arreglos_ (_arrays_) y _objetos_ (_objects_)**.
-* **Manipular el DOM** (agregar elementos dinámicamente basados en la data).
-* **Manejar eventos del DOM** para permitir interacción con el usuario
-  (filtrado, ordenado, ...).
-* Entender los beneficios y complejidades de **trabajar en equipo** en un
-  ambiente de incertidumbre.
 
 ### Historias de usuario
 
@@ -168,7 +148,6 @@ CRITERIOS DE ACEPTACIÓN
 
 ### Diseño de la Interfaz de Usuario
 
-El User persona se elaboró con [Figma](https://figma.com)  el cual se pueden encontrar [aquí](https://www.figma.com/proto/eQAInpAP5qIrILcLgckiWc5E/User-persona-(POKE-LAB-GO)?node-id=1%3A3&scaling=min-zoom)
 
 #### 
 
