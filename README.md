@@ -188,6 +188,13 @@ El prototipo de Alta fidelidad se elaboró con [Figma](https://figma.com)  los c
 
 Se realizaron testeos de usabilidad con los usuarios los cuales indicaron que el titulo de la app les resultada dificil de leer por lo que se realizaron mejoras al final.
 
+Usuarios:
+* [Fabrizio](https://youtu.be/4UTRvB0MXbc)
+* [Fabian](https://youtu.be/XsaByZnEbuY) 
+* [Emilio](https://youtu.be/4cgICV6RIIo)
+* [Macarena](https://youtu.be/vVfjhKprwvI)
+* [Karen](https://youtu.be/gTLCmOgpVQE)
+
 #### Test usuarios
 
 Se realizaron testeos a usuarios con la página terminada para poder analizar si es necesario aplicar algún cambio y mejora en la app. Puedes verlo [aquí](https://www.youtube.com/watch?v=4cgICV6RIIo&feature=youtu.be)
