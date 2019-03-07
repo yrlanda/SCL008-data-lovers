@@ -98,9 +98,6 @@ h2{
   padding: 2%;
 
 }
-
-
-
 .poke-modal {
   width: 90%;
   height: 90%;
@@ -111,9 +108,15 @@ h2{
   text-align: center;
   align-content: flex-start;
 }
-
 .poke-modal img{
   width: 20%;
   align-self: center;
 }
- 
+.poke-modal li{
+  list-style-type: none;
+  text-align: left;
+}
+
+.type_img {
+  width: 33% !important;
+}

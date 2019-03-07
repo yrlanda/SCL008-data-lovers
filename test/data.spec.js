@@ -7,17 +7,6 @@ require('../src/data/pokemon/pokemon.js');
 const data = window.pokemon.pokemon;
 
 
-describe('example', () => {
-  
-  it('debería ser una función', () => {
-    assert.deepEqual(typeof example, 'function');
-  });
-
-  it('debería retornar "example"', () => {
-    assert.deepEqual(example(), 'example');
-  });
-})
-
 describe('orderData', () => {
   it('deberia de mostrar al pokemon Abra como el primero en la lista cuando se ordene de la  A - Z', () => {
     let pokemon_data = window.sortData(data, 'az');

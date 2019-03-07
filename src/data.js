@@ -1,10 +1,4 @@
 /* Manejo de data */
-
-const example = () => {
-  return 'example';
-};
-window.example = example;
-
 // función para ordenar
 
 const sortData = (data, condition) => {

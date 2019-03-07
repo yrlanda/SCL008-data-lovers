@@ -16,7 +16,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img class="logo" src="./img/logo1.png" alt="PokeLabGo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -26,7 +26,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Pokémon</a>
+              <a class="nav-link" href="pokemon.html">Pokémon</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="statistics.html">Estadísticas</a>
@@ -107,28 +107,27 @@
 
                 </div>
                 <!--.box-->
-                <div class="col box">
-                  <i class="fas fa-fist-raised"> </i>
-                  <h4><strong>Type</strong></h4>
-                  <ul id="type_pokemon"></ul>
+                <div class="col-sm-3 box">
+                  <h5><strong>Type</strong></h5>
+                  <ul id="type_pokemon">
+                    <li><img class="type_img" src="./img/types/fire.png" alt="type"> Fire </li>
+                    <li><img class="type_img" src="./img/types/dragon.png" alt="type"> Dragon</li>
+                  </ul>
                 </div>
                 <!--.box-->
                 <div class="col box">
-                  <i class="fas fa-shield-alt"> </i>
-                  <h4><strong>Weight</strong> </h4>
-                  <h5 id="weight_pokemon"></h5>
+                  <h5><strong>Weight</strong></h5>
+                  <p id="weight_pokemon"></p>
                 </div>
                 <!--.box-->
                 <div class="col box">
-                  <i class="fas fa-hat-wizard"> </i>
-                  <h4><strong>Height</strong> </h4>
-                  <h5 id="height_pokemon"></h5>
+                  <h5><strong>Height</strong> </h5>
+                  <p id="height_pokemon"></p>
                 </div>
                 <!--.box-->
                 <div class="col box">
-                  <i class="fas fa-dizzy"></i>
                   <h5><strong>Egg</strong></h5>
-                  <h5 id="egg_pokemon"></h5>
+                  <p id="egg_pokemon"></p>
                 </div>
                 <!--.box-->
                 <div class="col box">
@@ -142,11 +141,6 @@
                   <ul id="weakness_pokemon">
                   </ul>
                 </div>
-                <!-- <div class="col-sm-3">
-                  <h5><strong>Next Evolution</strong></h5>
-                  <ul id="next_pokemon">
-                  </ul>
-                </div> -->
                 <div class="col-sm-3">
                   <h5><strong>Candy</strong></h5>
                   <p id="candy_pokemon"></p>

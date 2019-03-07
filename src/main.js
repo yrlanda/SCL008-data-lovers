@@ -30,7 +30,7 @@ window.onload = () => {
 
     datos.forEach(pokemon => {
       html += `
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-target=".bd-example-modal-lg" data-toggle="modal" onclick="DrawModal('${pokemon.name}');">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-target=".bd-example-modal-lg" data-toggle="modal" onclick="drawModal('${pokemon.name}');">
           <div class="card">
             <img src="${pokemon.img}" class="card-img-top" alt="${pokemon.name}">
             <div class="card-body">
@@ -51,22 +51,26 @@ window.onload = () => {
 
 function drawModal(pokemon_name){
 
-  const pokemon = window.getPokemon(window.pokemon.pokemon, pokemon_name);
+  let pokemon = window.getPokemon(window.pokemon.pokemon, pokemon_name);
 
   document.getElementById('num_pokemon').innerHTML = pokemon.num;
   document.getElementById('img_pokemon').src = pokemon.img;
   document.getElementById('name_pokemon').innerHTML = pokemon.name;
   
+  document.getElementById('type_pokemon').innerHTML = '';
+
   pokemon.type.forEach(type => {
-    document.getElementById('type_pokemon').innerHTML += `<li>${type}</li>`;
+    document.getElementById('type_pokemon').innerHTML += ` <li><img class="type_img" src="./img/types/${type}.png" alt="type"> ${type} </li>`;
 
   })
   document.getElementById('weight_pokemon').innerHTML = pokemon.weight;
   document.getElementById('height_pokemon').innerHTML = pokemon.height;
   document.getElementById('egg_pokemon').innerHTML = pokemon.egg;
 
+  document.getElementById('weakness_pokemon').innerHTML   = '';
+
   pokemon.weaknesses.forEach(weakness => {
-    document.getElementById('weakness_pokemon').innerHTML += `<li>${weakness}</li>`
+    document.getElementById('weakness_pokemon').innerHTML += `<li><img class="type_img" src="./img/types/${weakness}.png" alt="type"> ${weakness}</li>`
   })
 
   document.getElementById('candy_pokemon').innerHTML = pokemon.candy;
