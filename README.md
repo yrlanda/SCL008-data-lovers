@@ -1,5 +1,7 @@
 # POKE LAB GO
 
+https://yrlanda.github.io/SCL008-data-lovers/
+
 ## Índice
 
 * [Evolución de Pokémon Go](#evolución-de-pokémon-go)
@@ -174,7 +176,7 @@ Los wireframe se realizaron con [Figma](https://figma.com)  los cuales se pueden
 
 #### Experiencia de usuario 
 Se realizó una entrevista a un jugador de PokemonGo nivel intermedio, incluye preguntas acerca del juego, experiencia del juego y mejoras para la página Poke Lab Go.
-Para acceder a esta información [aquí](https://docs.google.com/document/d/1Y92lnRx_ibkZf5Vo5DQH6QZUqoS3dXBqOs9H3ZPq6mQ/edit?usp=sharing).
+
 
 #### Prototipo de alta fidelidad
 
