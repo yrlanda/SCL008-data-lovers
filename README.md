@@ -174,6 +174,10 @@ En el siguiente wireframe se muestra una aproximación más tangible de las func
 
 Los wireframe se realizaron con [Figma](https://figma.com)  los cuales se pueden encontrar [aquí](https://www.figma.com/file/OG0qwA2ncQfYkenZ5KQmA9dW/Pokemon-Go-wireframe?node-id=0%3A9)
 
+Se realizó un testeo a un usuario de PokemonGo nivel intermedio para poder visualizar si los prototipos están funcionando correctamente. En el testeo se pudo concluir que se debían realizar ciertos cambios y mejoras, así como tambien corroborar elementos bien desarrollados en el prototipo generado, el video lo puedes encontrar  [aquí](https://www.youtube.com/watch?v=XMweLVhwZPg&feature=youtu.be)
+
+
+
 #### Experiencia de usuario 
 Se realizó una entrevista a un jugador de PokemonGo nivel intermedio, incluye preguntas acerca del juego, experiencia del juego y mejoras para la página Poke Lab Go.
 
@@ -184,12 +188,10 @@ El prototipo de Alta fidelidad se elaboró con [Figma](https://figma.com)  los c
 
 Se realizaron testeos de usabilidad con los usuarios los cuales indicaron que el titulo de la app les resultada dificil de leer por lo que se realizaron mejoras al final.
 
-#### Testeos de usabilidad
+#### Test usuarios
 
-Durante el reto deberás realizar tests de usabilidad con distintos usuarios, y
-en base a los resultados de esos tests, deberás iterar tus diseños. Cuéntanos
-qué problemas de usabilidad detectaste a través de los tests y cómo los
-mejoraste en tu propuesta final.
+Se realizaron testeos a usuarios con la página terminada para poder analizar si es necesario aplicar algún cambio y mejora en la app. Puedes verlo [aquí](https://www.youtube.com/watch?v=4cgICV6RIIo&feature=youtu.be)
+
 
 ### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
