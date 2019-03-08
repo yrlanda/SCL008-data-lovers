@@ -7,15 +7,24 @@ https://yrlanda.github.io/SCL008-data-lovers/
 ## Índice
 
 * [Evolución de Pokémon Go](#evolución-de-pokémon-go)
-* [Poke Lab Go](#poke-lab-go)
-* [Definición del producto](#definición-del-producto)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Parte opcional](#parte-opcional-hacker-edition)
-* [Consideraciones técnicas](#consideraciones-técnicas)
-* [Primeros pasos](#primeros-pasos)
-* [Contenido de referencia](#contenido-de-referencia)
+* [Definición del Producto](#deficion-del-producto)
+* [Proceso del diseño](#proceso-del-diseño)
+* [Planificación del Proyecto](#planificacion-del-proyecto)
+* [Encuesta aplicada](#encuesta-aplicada)
+* [Defición del usuario](#definicion-del-usuario)
+* [Diagrama de Flujo](#diagrama-de-flujo)
+* [Ideación](#ideacion)
+* [Prototipo de Baja Fidelidad](#prototipo-de-baja-fiddelidad)
+* [Prototipado](#prototipado)
+* [Wireframe](#wireframe)
+* [Mockup](#mockup)
+* [Prototipo de Alta Fidelidad](#prototipo-de-alta-fidelidad)
+* [Test de Usabilidad](#test-de-usabilidad)
+* [Feedback de Experto](#feedback-de-experto)
 * [Checklist](#checklist)
+
+
+
 
 ***
 
