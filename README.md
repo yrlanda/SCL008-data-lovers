@@ -2,6 +2,8 @@
 
 https://yrlanda.github.io/SCL008-data-lovers/
 
+![ poke lab go](./src/img/poke.png "poke lab go")
+
 ## Índice
 
 * [Evolución de Pokémon Go](#evolución-de-pokémon-go)
@@ -17,6 +19,7 @@ https://yrlanda.github.io/SCL008-data-lovers/
 
 ***
 
+
 ## Evolución del Pokémon Go
 
 A inicios del año 1996 en Japón, nace un videojuego más exitosos del mundo creado por Satoshi Tajiri. Pokémon. Pokémon.cuenta en la actalidad con más de 50 títulos. Entre los años 1989 y 1990, mucho antes del lanzamiento del primer juego de Pokémon, Tajiri diseñaba los primeros bocetos de lo que sería su obra maestra: un juego basado en coleccionar criaturas, las cuales podríamos usar en combate contra otros jugadores tanto en un mundo real como virtual. A sus criaturas las llamó “monstruos de bolsillo”, dado que el jugador podría atraparlas en unas bolas especiales que caben en la palma de la mano y llevarlos a todas partes en el bolsillo de un pantalón o mochila. La primera generación se llamó “Pocket Monsters”, y más tarde fue conocido sencillamente como Pokémon, uniendo las dos palabras.
@@ -25,15 +28,14 @@ Niantic Labs es una empresa de base tecnológica que fue creada dentro de Google
 
 Pokémon Go ha causado sensación desde el día de su lanzamiento, atrayendo a jóvenes y adultos a este nuevo mundo virtual por medio de la realidad aumentada. De acuerdo con el concepto original, los entrenadores buscan capturar Pokémon hasta completar una colección. El otro objetivo es adiestrarlos para que ganen batallas frente a otras criaturas.
 
+## Definición del producto (Poke Lab Go)
 
-## Poke Lab Go
+Poke Lab Go es una aplicación dirigida a todos los fanáticos de Pokémon Go en forma de catálogo, ya que le permite tener un acceso rápido en la busqueda de sus pokémon y conocer más de ellos. En esta aplicación podrán filtrar y ordenar alfabeticamnete o a través dde su ID de una manera más rapipda y sencilla. Otro de los beneficios importantes que tiene la aplicación es que podŕas compartir ideas con tus amigos sobre tu pokémon ya que en esta encontrarás información detallada de cada uno de ellos. Descarga ya, tu catálogo en tu móvil y así obtienes lo que tanto has deseado saber sobre tus pokémon.
 
 
-Poke Lab Go es una aplicación dirigida a todos los fanáticos de Pokémon Go en forma de catálogo, ya que le permite tener un acceso rápido en la busqueda de sus pokémon y conocer más de ellos. En esta aplicación podrán filtrar y ordenar alfabeticamnete o a través dde su ID de una manera más rapipda y sencilla. 
+## Proceso del Diseño 
 
-otro de los beneficio importantes que tiene la aplicación es que podŕas compartir ideas con tus amigos sobre tu pokémon ya que en esta encontraras información detallada de cada uno de ellos. descarga ya, tu catálogo en tu móvil y así obtienes lo que tanto has deseado saber sobre tus pokémon.
-
-## Definición del producto
+En el desarrollo del Reasearch fuimos evaluando y considerando cada uno de los criterios referidos por nuestros usuarios para el desarrollo de esta aplicación. A continuación se desglozan una serie de pautas que nos periten definir el producto: 
 
 1. ¿Quiénes son los principales usuarios de producto?
 
@@ -49,20 +51,16 @@ Los usuarios requieren en la aplicación una busqueda sencilla de su pokémon y 
 
 4. ¿Cómo crees que el producto resuelve el problema que tiene tu usuario?
 
-Poke Lab Go es una aplicación web simple, ideal para usar desde el dispositivo móvil. La solución perfecta que necesitan los usuario para acceder fácilmente a toda informacion específica sobre los pokémon que se encuentran en el juego Pokémon Go.
+Poke Lab Go es una aplicación simple, ideal para usar desde el dispositivo móvil. La solución perfecta que necesitan los usuario para acceder fácilmente a toda informacion específica sobre los pokémon que se encuentran en el juego Pokémon Go.
 
 5. ¿Cuándo utilizan o utilizarían el producto?
 
-Antes de iniciar una partida y deseen consultar información de un pokémon en específico.
+Antes de iniciar una partida y deseen consultar información de un pokémon en específico o cuando esten jugando.
+
+## Planificación del proyecto
 
 
-## Definición del Usuario
-
-El User persona se elaboró con [Figma](https://figma.com)  el cual se pueden encontrar [aquí](https://www.figma.com/proto/eQAInpAP5qIrILcLgckiWc5E/User-persona-(POKE-LAB-GO)?node-id=1%3A3&scaling=min-zoom)
-
-## Encuesta aplicada
-
-![Encuesta](./src/img/encuesta/grafico_1.png "Grafico 1")
+Con trello se llevo de manera más detallada la planifición del desarrrollo de la app [Trello](https://trello.com) el cual se pueden encontrar [aquí](https://trello.com/b/Jlp69tCA/poke-lab-go)
 
 
 ### Historias de usuario
@@ -147,13 +145,36 @@ CRITERIOS DE ACEPTACIÓN
 
 * La información debe incluir la debilidad por cada pokémon para que el usuario sepa contra que tipos de pokémon se enfrentara.
 
+### Encuesta aplicada
 
-### Diseño de la Interfaz de Usuario
+Se realizó una encuesta con el Formulario de Google Forms, con el objetivo de conocer un poco más sobre los jugadores de Pokémon Go, que fue compartida a través de vaarias redes sociales, recibiendo un total de 17 respuestas.
 
+La encuesta se realizó con [Google](https://docs.google.com)  el cual se pueden encontrar [aquí](https://docs.google.com/spreadsheets/d/1sfovsX3TTzw9UGcx3pIXZJRC2Lfl_Flr9pJjH2EgBR4/edit#gid=1489781696)
 
-#### 
+![Encuesta](./src/img/encuesta/grafico_enc.png "grafico 1")
+
+![Encuesta](./src/img/encuesta/grafico_enc2.png "grafico 2")
+
+Cuando le preguntamos por qué juegan pokémon estas fueron su respuestas 
+
+![Wordcloud](./src/img/wordcloud_poke.png "grafico 2")
+
+## Definición del Usuario (User persona o Buyer persona)
+
+ Este perfil representa un personaje real extraído a través de informaciones de personas que potencialmente son jugadores de Pokémon para los cuales esta orientada la aplicación de Poke Lab Go, donde podrán recopilar información necesaria para los ojetivos de sus partidas.
+
+El User persona se elaboró con [Figma](https://figma.com)  el cual se pueden encontrar [aquí]
+(https://www.figma.com/proto/eQAInpAP5qIrILcLgckiWc5E/User-persona-(POKE-LAB-GO)?node-id=1%3A3&scaling=min-zoom)
+
+### Diagrama de Flujo 
+
+Aca se puede observar de una manera más detallada la interacción del usuario con la aplicación.
 
 ![Diagrama de Flujo](./src/img/Flowchart.png "Diagrama de Flujo")
+
+## Ideación 
+
+![Lluvia de ideas](./src/img/lluvia_ideas.png "Lluvia de ideas")
 
 #### Prototipo de baja fidelidad 
 
@@ -166,7 +187,8 @@ Inicialmente se elabora prototipado de baja fidelidad para su uso en test y sesi
 ![Prototipo de Baja Fidelidad](./src/img/Sketch_5.jpg "Boceto 5")
 
 Al testear nuestro prototipo de baja fidelidad se pudo obserar que los usuarios marcaban fácilmente los botones que eran indicativos como para lograr la tarea dada, esta constaba de seleccionar un tipo de pokémon y su resultado fue muy fluido.
-   
+
+## Prototipado
 
 #### Wireframe
 
@@ -176,56 +198,42 @@ Los wireframe se realizaron con [Figma](https://figma.com)  los cuales se pueden
 
 Se realizó un testeo a un usuario de PokemonGo nivel intermedio para poder visualizar si los prototipos están funcionando correctamente. En el testeo se pudo concluir que se debían realizar ciertos cambios y mejoras, así como tambien corroborar elementos bien desarrollados en el prototipo generado, el video lo puedes encontrar  [aquí](https://www.youtube.com/watch?v=XMweLVhwZPg&feature=youtu.be)
 
+#### Mockup#######
 
-
-#### Experiencia de usuario 
-Se realizó una entrevista a un jugador de PokemonGo nivel intermedio, incluye preguntas acerca del juego, experiencia del juego y mejoras para la página Poke Lab Go.
+El prototipo de Baja fidelidad se elaboró con  [Figma](https://figma.com)  el cuale se pueden encontrar [aquí](https://www.figma.com/proto/XGVn7L1iotKpgfis1PLRN30y/poke-lab-go-baja-fidelidad?node-id=1%3A2&scaling=min-zoom)
 
 
 #### Prototipo de alta fidelidad
 
-El prototipo de Alta fidelidad se elaboró con [Figma](https://figma.com)  los cuales se pueden encontrar [aquí](https://www.figma.com/proto/YamVV28vR5MVltYHeoCnYyX6/poke-lab-go-alta-fidelidad?node-id=2%3A11&scaling=min-zoom)
+El prototipo de Alta fidelidad se elaboró con [Figma](https://figma.com) el cual se pueden encontrar [aquí](https://www.figma.com/proto/YamVV28vR5MVltYHeoCnYyX6/poke-lab-go-alta-fidelidad?node-id=2%3A11&scaling=min-zoom)
 
 Se realizaron testeos de usabilidad con los usuarios los cuales indicaron que el titulo de la app les resultada dificil de leer por lo que se realizaron mejoras al final.
 
-#### Test usuarios
+
+## Test de usabilidad
 
 Se realizaron testeos a usuarios con la página terminada para poder analizar si es necesario aplicar algún cambio y mejora en la app. Puedes verlo [aquí](https://www.youtube.com/watch?v=4cgICV6RIIo&feature=youtu.be)
 
 
-### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
+### Feedback de Experto
 
-Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación.
-Como mencionamos, **no** es necesario que construyas la interfaz tal como la
-diseñaste. Tendrás un tiempo limitado para hackear, así es que deberás
-priorizar.
+El día 06 de Marzo se recibe Feedback de experto el cual indica
 
-Como mínimo, tu implementación debe:
+* La pagina principal de la aplicación al interactuar en ella por su diseño le dio la sensación de que habia más información en la parte de abajo
 
-1. Mostrar la data en una interfaz: puede ser un card, una tabla, una lista, etc.
-2. Permitir al usuario filtrar y ordenar la data.
-3. Calcular estadísticas de la colección (o subcolección) como media aritmética,
-   máximo y/o mínimo de algún atributo numérico, o contar cuántas veces aparece
-   un determinado valor, por ejemplo.
-4. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles,
-   tablets y desktops.
+* Indica que en el select donde se muestran todos los tipos de pokémon deberian verse de una vez ordenada, por lo que se realiza modificación en el pokemon.html
 
-Es importante que tu interfaz, a pesar de ser una versión mínima de tu ideal,
-siga los fundamentos de _visual design_.
+* Sugiere en el link de estadisticas convertirlo en un select también.
+
+* Indica por último que le resulta armonioza la aplicación por la paleta de colores usadas
 
 
-## Parte Opcional (Hacker edition)
 
-Features/características extra sugeridas:
 
-* En lugar de consumir la data estática brindada en este repositorio, puedes
-  consumir la data de forma dinámica, cargando un archivo JSON por medio de
-  `fetch`. La carpeta `src/data` contiene una versión `.js` y una `.json` de
-  de cada set datos.
-* Agregarle a tu interfaz de usuario implementada visualizaciones gráficas. Para
-  ello te recomendamos explorar librerías de gráficas como [Chart.js](https://www.chartjs.org/)
-  o [Google Charts](https://developers.google.com/chart/).
-* 100% Coverage
+
+
+
+
 
 
 
@@ -283,22 +291,6 @@ Features/características extra sugeridas:
 ***
 
 
-
-### Diseño de experiencia de usuario (User Experience Design)
-
-* Investigación con usuario
-* [Principios de diseño visual](https://lms.laboratoria.la/cohorts/scl-2019-01-bc-core-commoncore-scl008/courses/diseno-visual)
-
-
-
-### Herramientas
-
-* [Git](https://git-scm.com/)
-* [GitHub](https://github.com/)
-* [GitHub Pages](https://pages.github.com/)
-* [Node.js](https://nodejs.org/)
-
-***
 
 ## Checklist
 
