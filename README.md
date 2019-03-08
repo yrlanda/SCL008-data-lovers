@@ -207,7 +207,7 @@ Los wireframe se realizaron con [Figma](https://figma.com)  los cuales se pueden
 
 Se realizó un testeo a un usuario de PokemonGo nivel intermedio para poder visualizar si los prototipos están funcionando correctamente. En el testeo se pudo concluir que se debían realizar ciertos cambios y mejoras, así como tambien corroborar elementos bien desarrollados en el prototipo generado, el video lo puedes encontrar  [aquí](https://www.youtube.com/watch?v=XMweLVhwZPg&feature=youtu.be)
 
-#### Mockup#######
+#### Mockup
 
 El prototipo de Baja fidelidad se elaboró con  [Figma](https://figma.com)  el cuale se pueden encontrar [aquí](https://www.figma.com/proto/XGVn7L1iotKpgfis1PLRN30y/poke-lab-go-baja-fidelidad?node-id=1%3A2&scaling=min-zoom)
 
