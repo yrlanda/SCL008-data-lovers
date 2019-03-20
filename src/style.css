@@ -2,6 +2,7 @@ body {
   background-image: url("./img/fondo_pantalla.png");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Roboto', sans-serif;
 }
 
 .cintillo {
@@ -33,10 +34,10 @@ body {
   background: rgba(255, 255, 255, 0);
     /* height: 397px; */
 }
-
+/* 
 .controles {
   margin-top: 4%
-}
+} */
 
 .card {
   width: 90%;
@@ -119,4 +120,10 @@ h2{
 
 .type_img {
   width: 33% !important;
+}
+#myChart{
+  width: 400; 
+  height: 400;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }

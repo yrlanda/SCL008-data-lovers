@@ -104,7 +104,7 @@ const computeWeaknesses = data => {
 window.computeWeaknesses = computeWeaknesses;
 
 const getPokemon = (data, pokemon_name) => {
-  const result = data.find( pokemon => pokemon.name === pokemon_name);
+  const result = data.find( pokemon => pokemon.name === pokemon_name); //.find es un metodo que busca un elemnt en la data que cumple con la condicion 
 
   return result;
 }

@@ -26,9 +26,9 @@ window.onload = () => {
   });
 
   function showCards(datos) {
-    let html = ``;
+    let html = ``; //necesito limpiarla simpre cuanddo llame la funcion
 
-    datos.forEach(pokemon => {
+    datos.forEach(pokemon => { 
       html += `
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" data-target=".bd-example-modal-lg" data-toggle="modal" onclick="drawModal('${pokemon.name}');">
           <div class="card">

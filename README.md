@@ -246,6 +246,14 @@ El día 06 de Marzo se recibe Feedback de experto el cual indica
 
 * Indica por último que le resulta armonioza la aplicación por la paleta de colores usadas
 
+### Paleta de colores
+
+### Tipografía
+
+### Iconos & Ilustraciones
+
+
+
 
 ## Checklist 🚀
 
@@ -267,3 +275,7 @@ El día 06 de Marzo se recibe Feedback de experto el cual indica
 * [X] UI: Muestra lista y/o tabla con datos y/o indicadores.
 * [X] UI: Permite ordenar data por uno o más campos (asc y desc).
 * [X] UI: Permite filtrar data en base a una condición.
+
+## Mejoras a realizar
+
+
